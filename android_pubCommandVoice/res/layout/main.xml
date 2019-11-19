@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/ico_mic"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/txtSpeechInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        android:text=" 위의 버튼을 누르고 말해주세요. \n 아래 버튼을 눌러서 조작 할수도 있습니다. "/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Button0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="0. 술 따르기 ( 이어서 건배 동작 시작 ) \n음성 예)술 따라 주세요 " />
+
+        <Button
+            android:id="@+id/Button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="1. 건배 시작  \n음성 예)건배 시작 하세요. " />
+        <Button
+            android:id="@+id/Button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="2. 건배 그만  \n음성 예)잔 내려 놓으세요." />
+
+        <Button
+            android:id="@+id/Button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="3. 안주 주기 \n음성 예)안주 주세요." />
+
+        <Button
+            android:id="@+id/Button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="4. 폰 들어 보여주기 \n음성 예)폰 보여 주세요." />
+
+        <Button
+            android:id="@+id/Button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="5. 폰 내려놓기 \n음성 예)폰 내려 놓으세요. "
+            android:visibility="visible"/>
+
+        <Button
+            android:id="@+id/Button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="6. 일시 정지 \n음성 예)일시 정지 하세요.  "
+            android:visibility="visible"/>
+
+        <Button
+            android:id="@+id/Button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="7. 다시 시작하기 \n음성 예)다시 시작 하세요. "
+            android:visibility="visible"/>
+
+        <Button
+            android:id="@+id/Button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="8. 파노라마 찍기 \n음성 예)파노라마 찍어 주세요. "
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+</ScrollView>
